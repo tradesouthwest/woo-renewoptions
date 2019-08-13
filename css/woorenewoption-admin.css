@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+[class^="woorenew-"] {
+    box-sizing: inherit;
+}
+.bnswclearfix:before, .woorenewclearfix:after {
+content: " ";
+clear: both;}
+.woorenewclearfix:after {
+display: table;
+width: 100%;
+height: 1px;
+padding: 15px 0;}
+.woorenew-block {
+display: block;
+}
+.woorenew-hidden{
+display: none;
+visibility: hidden;
+}
+.woorenew-main {
+margin: 0 auto;
+width: 100%;
+position: relative;
+}
+.notice.updated p,
+.updated.woocommerce-message p,
+div.updated p,
+div.error p,
+div.woocommerce-message,
+.wrap div.updated,
+.wp-core-ui .notice.is-dismissible
+{
+    padding:0;
+    /*display:none!important;*/
+}

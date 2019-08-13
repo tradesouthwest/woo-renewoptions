@@ -1,0 +1,51 @@
+[class^="woorenew-"] {
+    box-sizing: border-box;
+    }
+    .woorenew-clearfix:before,
+    .woorenew-clearfix:after {
+        content: " ";
+        clear: both;
+    }
+    .woorenew-clearfix:after {
+    display: table;
+    }
+    .woorenew-inline {
+        width: 100%;
+        float: left;
+        position: relative;
+        top: -1.75em;
+    }
+    .woorenew-inline label {
+        position: relative;
+    left: 4em;
+    top: -2.5em;
+    }
+    #woorenew-form > .inner-form {
+        margin-top: 1em;
+        display: block;
+        width: 100%;
+        padding:15px;
+    }
+    #woorenew-form > .inner-form .req{
+        color:red;
+        position:relative;
+        top:-.67em;
+    }
+    .woorenew-agree_wrap{
+        width: 100%;
+        min-height: 40px;
+        border: thin solid #ddd;
+        border-radius: 4px;
+        padding: 15px;
+        position: relative;
+        top: 1em;
+        box-shadow: 0 1px 1px 1.5px #ab4;
+    }
+    #woorenew_checkout_field{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    #woorenew_checkout_field abbr.required{
+        color: red;
+    }
