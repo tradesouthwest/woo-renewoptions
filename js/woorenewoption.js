@@ -1,4 +1,4 @@
-    jQuery('a[href^="https://bicyclensw.org.au/my-account/"]').on('click', 
+    jQuery('a[href^="https://everlated.com/my-account/"]').on('click', 
     function(event) {
         var target = jQuery(this.getAttribute('href'));
         if( target.length ) {
